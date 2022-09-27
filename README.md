@@ -20,7 +20,11 @@
 
 - Windows 
   ```
-  You just need to run start-on-windows.bat
+  If this is the first time you run the script you must first run :
+  install-on-windows.bat
+  
+  if you have already installed the dependencies you just have to launch :
+  start-on-windows.bat
   ```
 ##
 -----
