@@ -16,7 +16,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 #sms sender
 print(banner)
-choix = int(input("\n1) Send a message\n2) Check the status of an sms\n3) How to use ?\n99) Leave\n\nChoice : "))
+choix = int(input("\n1) Send a message\n2) Check the status of an sms\n3) How to use ?\n99) Leave\n\nNumber : "))
 
 if choix == 1:
     os.system('cls' if os.name == 'nt' else 'clear')
