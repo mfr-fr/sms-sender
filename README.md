@@ -46,6 +46,10 @@
 - **Kali Linux**
 - **Termux**
 
+<h2><p align="center">📷Picture📷</p></h2>
+<p align="center">
+<img src="https://media.discordapp.net/attachments/959865816445227189/1024369360661401600/unknown.png", width="300", height="300">
+</p>
 <h2><p align="center">⚠️Disclaimer⚠️</p></h2>
 
 <br><br>
