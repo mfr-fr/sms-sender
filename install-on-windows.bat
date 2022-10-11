@@ -1,4 +1,3 @@
-python -m pip install requests
-python -m pip install os
-python -m pip install time
+pip install -r requirements.txt
 start start-on-windows.bat
+exit
