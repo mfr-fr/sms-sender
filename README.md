@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img src="https://media.discordapp.net/attachments/959865816445227189/1018577952528666694/1662918148608.png", width="200", height="200">
+<img src="https://media.discordapp.net/attachments/1006288165012766751/1037887242775044116/image.png", width="500", height="500">
 </p>
 
 -----
@@ -32,7 +32,7 @@
 
 <h2><p align="center">📷Picture📷</p></h2>
 <p align="center">
-<img src="https://media.discordapp.net/attachments/959865816445227189/1024369360661401600/unknown.png", width="300", height="300">
+<img src="https://media.discordapp.net/attachments/1006288165012766751/1037885705713635378/image.png", width="300", height="300">
 </p>
 
  <h2><p align="center">📋Dependencies📋</p></h2>
