@@ -7,7 +7,7 @@ import os
 
 path = os.getcwd()
 
-path_token = path+"\\back\_token.txt"
+path_token = path+"/back/_token.txt"
 
 white = Col.white
 green = Col.light_green
@@ -37,7 +37,7 @@ def setup_token():
   print(Colorate.Vertical(Colors.blue_to_red, banner, 2))
   if os.path.getsize(path_token) == 0:
     user_token = input(f"{purple}Token : {white}")
-    fichier = open("back\_token.txt", "a")
+    fichier = open("back/_token.txt", "a")
     fichier.write(f"{user_token}")
     fichier.close()
     input(f"{purple}Correctly registered token Press enter to continue{white}")
@@ -52,7 +52,7 @@ def delete_token():
   if os.path.getsize(path_token) == 0:
     input(f"{purple}You don't have a registered token\nPress enter to close{white}")
   else:
-    token = open("back\_token.txt", "r")
+    token = open("back/_token.txt", "r")
     token = token.read()
     print(f"{purple}Your registered token is : {white}{token}")
     sur =int(input(f"{purple}Are you sure you want to delete the Token ?\n{green}1){purple} Home\n{green}2){purple} Delete\nNumber : {white}"))
@@ -61,8 +61,8 @@ def delete_token():
     if sur ==2:
       os.system('cls' if os.name == 'nt' else 'clear')
       print(Colorate.Vertical(Colors.blue_to_red, banner, 2))
-      os.remove(f'back\_token.txt')
-      fichier = open("back\_token.txt", "a")
+      os.remove(f'back/_token.txt')
+      fichier = open("back/_token.txt", "a")
       fichier.close()
       fin =(input(f"{purple}Token successfully deleted\nPress enter to close"))
       os.system('cls' if os.name == 'nt' else 'clear')
@@ -82,7 +82,7 @@ def yestoken():
       yestoken()
 
   else:
-    token = open("back\_token.txt", "r")
+    token = open("back/_token.txt", "r")
     token = token.read()
   os.system('cls' if os.name == 'nt' else 'clear')
   print(Colorate.Vertical(Colors.blue_to_red, banner, 2))
@@ -188,7 +188,7 @@ def log():
   os.system('cls' if os.name == 'nt' else 'clear')
   print(Colorate.Vertical(Colors.blue_to_red, banner, 2))
   print(f"{purple}SMS LOGS :{white}")
-  fichier = open("back\log.txt", "r")
+  fichier = open("back/log.txt", "r")
   print(fichier.read())
   fichier.close()
   close =int(input(f"{purple}\n{green}1){purple} Close\n{green}2){purple} Delete logs\nNumber : {white}"))
@@ -204,8 +204,8 @@ def log():
     if sur ==2:
       os.system('cls' if os.name == 'nt' else 'clear')
       print(Colorate.Vertical(Colors.blue_to_red, banner, 2))
-      os.remove(f'back\log.txt')
-      fichier = open("back\log.txt", "a")
+      os.remove(f'back/log.txt')
+      fichier = open("back/log.txt", "a")
       fichier.close()
       fin =(input(f"{purple}Logs successfully deleted\nPress enter to close"))
       os.system('cls' if os.name == 'nt' else 'clear')
