@@ -1,7 +1,9 @@
 # dev by mfr
 from datetime import datetime 
 from pystyle import *
-import requests,time,os
+import requests
+import time
+import os
 
 path = os.getcwd()
 
@@ -103,7 +105,7 @@ def yestoken():
   print(logs)
   print("")
   date = datetime.today().strftime('%Y-%m-%d %Hh%M')
-  fichier = open("back\log.txt", "a")
+  fichier = open("back/log.txt", "a")
   fichier.write(f"\n{date}\nPHONE:{phone}\nMESSAGE:{texte}\n")
   fichier.close()
   close =(input(f"{purple}Press enter to close"))
@@ -135,7 +137,7 @@ def notoken():
   print(logs)
   print("")
   date = datetime.today().strftime('%Y-%m-%d %Hh%M')
-  fichier = open("back\log.txt", "a")
+  fichier = open("back/log.txt", "a")
   fichier.write(f"\n{date}\nPHONE:{phone}\nMESSAGE:{texte}\n")
   fichier.close()
   close =(input(f"{purple}Press enter to close"))
