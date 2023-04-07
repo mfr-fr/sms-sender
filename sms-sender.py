@@ -1,9 +1,7 @@
 # dev by mfr
 from datetime import datetime 
 from pystyle import *
-import requests
-import time
-import os
+import requests,time,os
 
 path = os.getcwd()
 
