@@ -216,6 +216,7 @@ def main():
   #sms sender
   os.system('cls' if os.name == 'nt' else 'clear')
   print(Colorate.Vertical(Colors.blue_to_red, banner, 2))
+  print(f"{red}Educational purposes only{white}")
   choix = int(input(f"\n{green}1){purple} Send a message\n{green}2){purple} Manage Token\n{green}3){purple} Check the status of an sms\n{green}4){purple} See sms logs\n{green}5){purple} How to use ?\n{green}99){purple} Leave\nNumber :{white} "))
 
   if choix == 1:
