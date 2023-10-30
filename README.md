@@ -39,7 +39,7 @@
 
 <b>sms-sender</b> requires following programs to run properly 
 - `git (for linux only)`
-- `python`
+- `python 3`
 
 > to run this script you need python modules that will be installed automatically with python.
 </details>
