@@ -3,6 +3,7 @@
 <p align="center">
 <img src="https://media.discordapp.net/attachments/1006288165012766751/1037887242775044116/image.png", width="500", height="500">
 </p>
+<p align="center">​⭐​PLEASE PUT A START​⭐​</p>
 
 -----
 <h2><p align="center">🖥️Installation🖥️</p></h2>
