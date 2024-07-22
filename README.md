@@ -33,7 +33,7 @@
 
 <h2><p align="center">📷Picture📷</p></h2>
 <p align="center">
-<img src="https://media.discordapp.net/attachments/1006288165012766751/1094024302183075962/image.png", width="300", height="300">
+<img src="https://raw.githubusercontent.com/mfr-fr/sms-sender/main/back/screen.jpg", width="300", height="300">
 </p>
 
  <h2><p align="center">📋Dependencies📋</p></h2>
