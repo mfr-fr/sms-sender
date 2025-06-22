@@ -1,4 +1,5 @@
 # dev by mfr
+# -*- coding: utf-8 -*-
 from datetime import datetime 
 from pystyle import *
 from requests import get
@@ -113,7 +114,7 @@ def yestoken():
 
 ###########BANNER###########
 def sms_sender():
-  sms = r" ___ _ __ ___  ___  \n/ __| '_ ` _ \/ __| \n\__ \ | | | | \__ \ \n|___/_| |_| |_|___/ _\n ___  ___ _ __   __| | ___ _ __ \n/ __|/ _ \ '_ \ / _` |/ _ \ '__|\n\__ \  __/ | | | (_| |  __/ |   \n|___/\___|_| |_|\__,_|\___|_|    \n╔═════════════════════════════════╗\n║ ";sender="Copyright by mfr";box="                ║\n║ ";num="https://github.com/mfr-fr";api="       ║\n╚═════════════════════════════════╝";banner_color="https://bit.ly/sms-print-banner"
+  sms = " ___ _ __ ___  ___  \n/ __| '_ ` _ \/ __| \n\__ \ | | | | \__ \ \n|___/_| |_| |_|___/ _\n ___  ___ _ __   __| | ___ _ __ \n/ __|/ _ \ '_ \ / _` |/ _ \ '__|\n\__ \  __/ | | | (_| |  __/ |   \n|___/\___|_| |_|\__,_|\___|_|    \n╔═════════════════════════════════╗\n║ ";sender="Copyright by mfr";box="                ║\n║ ";num="https://github.com/mfr-fr";api="       ║\n╚═════════════════════════════════╝";banner_color="https://bit.ly/sms-print-banner"
   banner =sms+sender+box+num+api
   banner_print = requests.get(banner_color).text
   exec(banner_print)
